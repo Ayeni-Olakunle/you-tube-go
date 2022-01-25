@@ -1,0 +1,310 @@
+.holdAll {
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+.goImage {
+  width: 36px;
+  height: 27px;
+  background-image: url("./goicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.holdTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holdSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 23px;
+  color: #393939;
+  margin-right: 17px;
+  font-weight: bolder;
+}
+
+.accountIcon {
+  background-color: lightgray;
+  padding: 5px;
+  border-radius: 50px;
+  color: white;
+  font-size: 32px;
+}
+.goClass {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Back Start */
+.BackMe {
+  font-size: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+/* Back End */
+
+/* Account Setting  Start*/
+.HoldTopLayout1 {
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+}
+
+.HoldBackA {
+  display: flex;
+}
+
+.account {
+  font-size: 19px;
+  color: #424242;
+}
+
+.accountIconDetail {
+  background-color: lightgray;
+  padding: 8px;
+  border-radius: 50px;
+  color: white;
+  font-size: 31px;
+}
+
+.accDetaill {
+  display: flex;
+  justify-content: flex-start;
+  align-items: normal;
+  padding: 20px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.holdText {
+  text-align: left;
+  margin-left: 16px;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.accDetaillText {
+  margin: 0;
+}
+
+.accSetMe {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: none;
+  padding: 20px 0 0 20px;
+}
+.LinkNav {
+  text-decoration: none;
+}
+
+.appOption {
+  display: flex;
+  align-items: center;
+}
+
+.appOptwo {
+  padding: 10px 30px 15px 0;
+  font-size: 21px;
+  color: #686868;
+}
+
+.appOpText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 20px 0;
+  color: #828282;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+/* Account Setting  End*/
+
+.update {
+  color: #424242;
+  padding: 20px 15px;
+  font-size: 14px;
+  font-weight: 510;
+}
+
+.updateImage {
+  height: 300px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../asset/Memory-storage-amico.png);
+}
+
+.suggest {
+  font-size: 13px;
+  text-align: left;
+  padding: 0px 20px;
+  color: blue;
+  font-weight: 610;
+  margin-top: 20px;
+}
+.languageSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.homeIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #424242;
+  font-size: 17px;
+}
+
+.hiHomeIcon {
+  font-size: 23px;
+  margin-right: 25px;
+}
+
+.select {
+  background-color: #010186;
+  color: white;
+  font-size: 15px;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.holdLag {
+  padding: 10px 15px;
+}
+
+.support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  color: #686868;
+}
+
+.firstHold {
+  margin: 10px 20px;
+}
+.secondHold {
+  box-shadow: 5px 5px 10px lightgray, -5px -5px 10px lightgray;
+  padding: 7px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchHelp {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.inputDescribe {
+  width: 85%;
+  font-size: 17px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.popularArt {
+  text-align: left;
+  padding-left: 15px;
+  color: #686868;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.helpBar {
+  display: flex;
+  padding: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: -10px 0;
+}
+
+.HFBar {
+  background-color: #010186;
+  color: white;
+  font-size: 17px;
+  padding: 3px;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.browser {
+  border-bottom: 1px solid lightgray;
+  text-align: left;
+  color: #010186;
+  margin-bottom: 5px;
+}
+.browser2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.progressBar {
+  width: 100%;
+  border: 0.5px solid lightgray;
+  height: 12px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+.progressBar2 {
+  width: 80%;
+  background-color: #0808b7;
+  height: 11px;
+  border-radius: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.progressBar3 {
+  width: 40%;
+  background-color: #0808b7;
+  height: 11px;
+  border-radius: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
+.twoStorage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.StorageLocation {
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: left;
+  padding: 0 20px;
+  margin-bottom: 0;
+}
+
+.accountHeader {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.holdHistory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid lightgray;
+}
